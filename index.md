@@ -1,6 +1,6 @@
 ---
 
-layout: varya
+layout: ribbon
 
 style: |
 
