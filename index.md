@@ -55,6 +55,15 @@ By [Varya Stepanova](http://varya.me/)
 Яндекс [Yandex]: search engine in Russia, 2000 devs, 150 f/e.
 
 
+## Time to deploy
+
+1. Development
+2. Testing
+    - deploy to a testing server
+3. Release
+    - deploy to a production cluster
+
+
 ## Plain Text on Your Slides
 
 Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
