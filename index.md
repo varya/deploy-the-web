@@ -63,6 +63,11 @@ By [Varya Stepanova](http://varya.me/)
 3. Release
     - deploy to a production cluster
 
+## Inside deployment
+
+1. New files on the servers
+2. Running commands (TODO: rename)
+3. Restarting processes
 
 ## Plain Text on Your Slides
 
