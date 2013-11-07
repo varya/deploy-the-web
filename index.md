@@ -23,6 +23,7 @@ style: |
         #Launch p a {
             color:#000;
             }
+
     #Picture h2 {
         color:#FFF;
         }
@@ -42,16 +43,16 @@ By [Varya Stepanova](http://varya.me/)
 ![](pictures/launch.jpg)
 
 
-## Shower Key Features
+## Me
 
-1. Built on HTML, CSS and vanilla JavaScript
-2. All modern browsers are supported
-3. Slide themes are separated from engine
-4. Fully keyboard accessible
-5. Printable to PDF
+    {
+      name: "Varya Stepanova",
+      from: "Russia",
+      company: "<mark class="ya">Я</mark>ндекс, 5 years"
+    }
 
 {:.note}
-Shower ['ʃəuə] noun. A person or thing that shows.
+Яндекс [Yandex]: search engine in Russia, 2000 devs, 150 f/e.
 
 
 ## Plain Text on Your Slides
