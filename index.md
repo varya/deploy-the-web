@@ -69,6 +69,41 @@ By [Varya Stepanova](http://varya.me/)
 2. Running commands (TODO: rename)
 3. Restarting processes
 
+## Manual deployment
+
+- <del>Long</del> Looooooong
+- People make mistakes
+
+## Automation
+
+Variants here
+
+## Web project structure
+
+Dynamic and static files
+
+## Static cluster
+
+## 2nd biggest problem in programming
+
+Cache invaldation
+
+## versioning
+
+Versioning for each project and for common files.
+
+## Freeze URLs
+
+Including common URLs.
+
+## Backend/Frontend
+
+Why frontend layer is needed
+
+## Pair of packages
+
+If you use static cluster
+
 ## Plain Text on Your Slides
 
 Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
