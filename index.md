@@ -24,6 +24,21 @@ style: |
             color:#000;
             }
 
+    #me .note,
+    #me code {
+        font-size: 75%;
+    }
+
+    #debian {
+        background-image:url("pictures/package.jpg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    #debian ul {
+      font-size: 125%;
+    }
+
     #Picture h2 {
         color:#FFF;
         }
