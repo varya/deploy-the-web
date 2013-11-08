@@ -155,6 +155,12 @@ my-awesome-website_1.0.107
 
 ## Static cluster
 
+When a file is requested the server returns an image, CSS or JavaScript file (as
+well as static HTML). This is all what happens. Machines in the static cluster
+<mark class="important">think&nbsp;less</mark> and <mark
+class="important">serve&nbsp;fast</mark>. And they send headers to <mark
+class="important">cache&nbsp;files&nbsp;forever.
+
 ## 2nd biggest problem in programming
 
 Cache invaldation
