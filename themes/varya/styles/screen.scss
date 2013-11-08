@@ -331,6 +331,12 @@ a {
 		}
 	}
 
+    .no-numbers pre code {
+        &:before {
+            display: none;
+        }
+    }
+
 // Screen
 @media screen {
 	// List
