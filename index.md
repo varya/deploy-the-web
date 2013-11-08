@@ -43,12 +43,13 @@ By [Varya Stepanova](http://varya.me/)
 ![](pictures/launch.jpg)
 
 
-## Me
+## Me {#me}
 
     {
       name: "Varya Stepanova",
       from: "Russia",
-      company: "<mark class="ya">Я</mark>ндекс, 5 years"
+      before: "<mark class="ya">Я</mark>ндекс, 5 years",
+      now: "TMG Online"
     }
 
 {:.note}
