@@ -216,11 +216,33 @@ changed.
 
 A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
 
-## Backend/Frontend
+## Backend/Client
 
-Why frontend layer is needed
+{:.no-numbers}
+    my-awesome-website_1.0.108
 
-## Pair of packages
+{:.small .compact}
+    <script src="http://tmg.st/awesome/1.0.108/page.js">
+    </script>
+
+{:.reset}
+    my-awesome-website-static_1.0.108
+
+{:.small .compact}
+    http://tmg.st/awesome/1.0.108/page.js
+
+## Backend/Frontent/Client
+
+3-layer scheme
+
+## Backend/Frontent/Client
+
+{:.no-numbers}
+    <backend>
+    my-awesome-website-www_1.0.108
+    my-awesome-website-static_1.0.108
+
+## Questions?
 
 If you use static cluster
 
