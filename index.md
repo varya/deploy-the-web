@@ -116,6 +116,16 @@ By [Varya Stepanova](http://varya.me/)
 - [bit.ly/debian4web-1](http://bit.ly/debian4web-1)
 - [bit.ly/debian4web-2](http://bit.ly/debian4web-2)
 
+## Why packages?
+
+- unification
+- versions
+- easy to uninstall
+
+{:.note}
+my-awesome-website_1.0.106<br/>
+my-awesome-website_1.0.107
+
 ## Packing
 {:.terminal .no-numbers}
 
