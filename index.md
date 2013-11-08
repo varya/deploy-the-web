@@ -39,6 +39,20 @@ style: |
       font-size: 125%;
     }
 
+    .terminal {
+        background-color: #333;
+        color: #FFF;
+    }
+    .terminal h2 {
+        color: #CCC;
+    }
+    .terminal code {
+        color: #FFF;
+    }
+    .terminal pre mark.comment {
+        color: #FFF8DC;
+    }
+
     #Picture h2 {
         color:#FFF;
         }
@@ -98,8 +112,27 @@ By [Varya Stepanova](http://varya.me/)
 
 ## Debian packages for Web {#debian}
 
+- [bit.ly/debian-basics](http://bit.ly/debian-basics)
 - [bit.ly/debian4web-1](http://bit.ly/debian4web-1)
 - [bit.ly/debian4web-2](http://bit.ly/debian4web-2)
+
+## Packing
+{:.terminal .no-numbers}
+
+    > debuild
+    > debrelease
+
+    <mark class="comment">my-awesome-wesite_2.10-102_amd64.build</mark>
+    <mark class="comment">my-awesome-website_2.10-102_amd64.changes</mark>
+    <mark class="comment">my-awesome-website_2.10-102.dsc</mark>
+    <mark class="comment">my-awesome-website_2.10-102.dsc.asc</mark>
+    <mark class="comment">my-awesome-website_2.10-102.tar.gz</mark>
+
+## Installing
+{:.terminal .no-numbers}
+
+    > apt-get update
+    > apt-get install my-awesome-website
 
 ## Web project structure
 
