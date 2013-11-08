@@ -90,42 +90,6 @@ a {
     .caption a:hover {
       color: #5e93c8; }
 
-.badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: none;
-  overflow: hidden;
-  visibility: hidden;
-  width: 11em;
-  height: 11em;
-  line-height: 2.5;
-  font-size: 15px; }
-
-.badge a {
-  position: absolute;
-  bottom: 50%;
-  right: -50%;
-  left: -50%;
-  visibility: visible;
-  background: #4b86c2;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
-  color: #FFF;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transform-origin: 50% 100%;
-  -moz-transform-origin: 50% 100%;
-  -ms-transform-origin: 50% 100%;
-  -o-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-transform: rotate(45deg) translateY(-1em);
-  -moz-transform: rotate(45deg) translateY(-1em);
-  -ms-transform: rotate(45deg) translateY(-1em);
-  -o-transform: rotate(45deg) translateY(-1em);
-  transform: rotate(45deg) translateY(-1em); }
-  .badge a:hover {
-    background: #568ec6; }
-
 .slide {
   position: relative;
   width: 1024px;
