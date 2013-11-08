@@ -161,7 +161,24 @@ well as static HTML). This is all what happens. Machines in the static cluster
 class="important">serve&nbsp;fast</mark>. And they send headers to <mark
 class="important">cache&nbsp;files&nbsp;forever.
 
-## 2nd biggest problem in programming
+## Static files deployment
+{:.no-numbers}
+
+    my-awesome-website_1.0.108
+    my-awesome-website-static_1.0.108
+
+- [awesome.tmg.nl]()
+- [st.awesome.tmg.nl]() or [st.tmg.nl]() or [tmg.st]()
+
+## Solving the biggest problem
+
+<figure markdown="1">
+
+> There are only two hard things in Computer Science: cache invalidation and
+> naming things.
+
+<figcaption>Phil Karlton</figcaption>
+</figure>
 
 Cache invaldation
 
