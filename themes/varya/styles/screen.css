@@ -342,6 +342,9 @@ a {
 .slide:hover footer {
   bottom: 0; }
 
+.no-numbers pre code:before {
+  display: none; }
+
 @media screen {
   .list {
     position: absolute;
