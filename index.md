@@ -77,7 +77,14 @@ By [Varya Stepanova](http://varya.me/)
 
 ## Automation
 
-Variants here
+- Custom script
+- Version control system
+- Packages
+
+## Debian packages for Web {#debian}
+
+- [bit.ly/debian4web-1](http://bit.ly/debian4web-1)
+- [bit.ly/debian4web-2](http://bit.ly/debian4web-2)
 
 ## Web project structure
 
