@@ -168,27 +168,53 @@ class="important">cache&nbsp;files&nbsp;forever.
     my-awesome-website-static_1.0.108
 
 - [awesome.tmg.nl]()
-- [st.awesome.tmg.nl]() or [st.tmg.nl]() or [tmg.st]()
+- [st.awesome.tmg.nl]() or [st.tmg.nl]() or [tmg.st/awesome/]()
 
 ## Solving the biggest problem
+{:.no-numbers}
 
 <figure markdown="1">
 
-> There are only two hard things in Computer Science: cache invalidation and
+> There are only two hard things in Computer Science: <mark
+> class="important">cache&nbsp;invalidation</mark> and
 > naming things.
 
 <figcaption>Phil Karlton</figcaption>
 </figure>
 
-Cache invaldation
+{:.compact}
+    http://tmg.st/awesome/logo.png
+    http://tmg.st/awesome/logo1.png
+    http://tmg.st/awesome/new/logo.png
+    http://tmg.st/awesome/widget.js?dhsyb
 
-## versioning
+## Versioning
+{:.no-numbers}
 
-Versioning for each project and for common files.
+    my-awesome-website-static_1.0.108
+
+    http://tmg.st/awesome/1.0.108/logo.png
+    http://tmg.st/awesome/1.0.108/js/widget.js
 
 ## Freeze URLs
 
-Including common URLs.
+{:.small}
+    http://tmg.st/awesome/_/<mark>6rUIvSy1fLQ0Nn_OdCLP1h6IAcA</mark>.png
+
+File name depends on its content and chages only when the content has been
+changed.
+
+## Static files mapping
+
+    .logo {
+      background:url("logo.png");
+    }
+
+{:.small .no-numbers .compact}
+    .logo{background:url("http://tmg.st/awesome/_/6rUIvSy1fLQ0Nn_
+    OdCLP1h6IAcA.png")}
+
+A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
 
 ## Backend/Frontend
 
