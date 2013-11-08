@@ -343,6 +343,9 @@ a {
   bottom: 0; }
 .slide .small {
   font-size: 75%; }
+.slide .big {
+  font-size: 125%; }
+.slide .compact,
 .slide .compact code {
   line-height: 1.4em; }
 
