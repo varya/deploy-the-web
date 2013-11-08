@@ -144,9 +144,14 @@ my-awesome-website_1.0.107
     > apt-get update
     > apt-get install my-awesome-website
 
-## Web project structure
+## Web project contents
 
-Dynamic and static files
+- Backend files & Database
+- Static files
+  - images
+  - CSS
+  - JavaScript
+  - fonts
 
 ## Static cluster
 
