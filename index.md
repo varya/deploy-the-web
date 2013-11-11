@@ -242,14 +242,30 @@ A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
     my-awesome-website_1.0.108
 
 {:.small .compact}
-    <script src="http://tmg.st/awesome/1.0.108/page.js">
+    <script src="http://tmg.st/awesome/<mark>1.0.108</mark>/page.js">
     </script>
 
 {:.reset}
     my-awesome-website-static_1.0.108
 
 {:.small .compact}
-    http://tmg.st/awesome/1.0.108/page.js
+    http://tmg.st/awesome/<mark>1.0.108</mark>/page.js
+
+## Backend/Client
+
+{:.no-numbers}
+    my-awesome-website_1.0.108
+
+{:.small .compact}
+    <script src="http://tmg.st/awesome/_/<mark>0roIvDy1fLQ7Ln_
+    OdCFP1h6IbMr</mark>.js">
+    </script>
+
+{:.reset}
+    my-awesome-website-static_1.0.108
+
+{:.small .compact}
+    http://tmg.st/awesome/_/<mark>0roIvDy1fLQ7Ln_OdCFP1h6IbMr</mark>.js">
 
 ## Backend/Client
 {:.scheme}
