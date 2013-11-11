@@ -53,6 +53,18 @@ style: |
         color: #FFF8DC;
     }
 
+    .scheme {
+        text-align: center;
+    }
+    .scheme > div {
+        padding: 20px;
+        margin: auto;
+        bottom: 0;
+    }
+    .scheme h2 {
+        display:none;
+    }
+
     #Picture h2 {
         color:#FFF;
         }
@@ -239,16 +251,27 @@ A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
 {:.small .compact}
     http://tmg.st/awesome/1.0.108/page.js
 
-## Backend/Frontent/Client
+## Backend/Client
+{:.scheme}
 
-3-layer scheme
+![](pictures/backend-client.png)
 
-## Backend/Frontent/Client
+## Backend/Frontend/Client
+{:.scheme}
+
+![](pictures/backend-frontend-client.png)
+
+## Backend/Frontend/Client
 
 {:.no-numbers}
     <backend>
     my-awesome-website-www_1.0.108
     my-awesome-website-static_1.0.108
+
+## The new web frontend
+
+{:.big}
+[bit.ly/2-layer-frontend](http://bit.ly/2-layer-frontend)
 
 ## Robots to do this all
 
