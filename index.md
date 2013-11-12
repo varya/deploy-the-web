@@ -114,11 +114,14 @@ By [Varya Stepanova](http://varya.me/)
 
 ## Manual deployment
 
-{:.big}
 - <del>Long</del> Looooooong
   - Time is <mark>money</mark>
 - People make mistakes
   - No hot-fixes. They <mark>pay</mark> again.
+
+{:.big}
+[bit.ly/guardian-deployment](http://bit.ly/guardian-deployment)
+
 
 ## Automation
 
