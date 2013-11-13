@@ -139,7 +139,10 @@ By [Varya Stepanova](http://varya.me/)
 - Third-pary service
 - Packages
 
-## Debian packages for Web {#debian}
+## Packages/containers for Web {#debian}
+
+{:.big}
+debian, docker, npm, bower
 
 - [bit.ly/debian-basics](http://bit.ly/debian-basics)
 - [bit.ly/debian4web-1](http://bit.ly/debian4web-1)
@@ -154,8 +157,8 @@ By [Varya Stepanova](http://varya.me/)
 - easy to uninstall
 
 {:.note .compact}
-my-awesome-website_1.0.106<br/>
-my-awesome-website_1.0.107
+yandex-blogs_1.25.3<br/>
+yandex-blogs_1.25.4
 
 ## Packing
 {:.terminal .no-numbers}
@@ -163,17 +166,17 @@ my-awesome-website_1.0.107
     > debuild
     > debrelease
 
-    <mark class="comment">my-awesome-wesite_2.10-102_amd64.build</mark>
-    <mark class="comment">my-awesome-website_2.10-102_amd64.changes</mark>
-    <mark class="comment">my-awesome-website_2.10-102.dsc</mark>
-    <mark class="comment">my-awesome-website_2.10-102.dsc.asc</mark>
-    <mark class="comment">my-awesome-website_2.10-102.tar.gz</mark>
+    <mark class="comment">yandex-blogs_1.25-3_amd64.build</mark>
+    <mark class="comment">yandex-blogs_1.25-3_amd64.changes</mark>
+    <mark class="comment">yandex-blogs_1.25-3.dsc</mark>
+    <mark class="comment">yandex-blogs_1.25-3.dsc.asc</mark>
+    <mark class="comment">yandex-blogs_1.25-3.tar.gz</mark>
 
 ## Installing
 {:.terminal .no-numbers}
 
     > apt-get update
-    > apt-get install my-awesome-website
+    > apt-get install yandex-blogs
 
 ## Web project contents
 
@@ -195,11 +198,11 @@ class="important">cache&nbsp;files&nbsp;forever.
 ## Static files deployment
 {:.no-numbers}
 
-    my-awesome-website_1.0.108
-    my-awesome-website-static_1.0.108
+    yandex-blogs_1.25.3
+    yandex-blogs-static_1.25.3
 
-- [awesome.tmg.nl]()
-- [st.awesome.tmg.nl]() or [st.tmg.nl]() or [tmg.st/awesome/]()
+- [blogs.yandex.ru]()
+- [st.blogs.yandex.ru]() or [yandex.st/blogs/]()
 
 ## Solving the biggest problem
 {:.no-numbers}
@@ -214,23 +217,23 @@ class="important">cache&nbsp;files&nbsp;forever.
 </figure>
 
 {:.compact}
-    http://tmg.st/awesome/logo.png
-    http://tmg.st/awesome/logo1.png
-    http://tmg.st/awesome/new/logo.png
-    http://tmg.st/awesome/widget.js?dhsyb
+    http://yandex.st/blogs/logo.png
+    http://yandex.st/blogs/logo1.png
+    http://yandex.st/blogs/new/logo.png
+    http://yandex.st/blogs/widget.js?dhsyb
 
 ## Versioning
 {:.no-numbers}
 
-    my-awesome-website-static_1.0.108
+    my-awesome-website-static_<mark>1.25.3</mark>
 
-    http://tmg.st/awesome/1.0.108/logo.png
-    http://tmg.st/awesome/1.0.108/js/widget.js
+    http://yandex.st/blogs/<mark>1.25.3</mark>/logo.png
+    http://yandex.st/blogs/<mark>1.25.3</mark>/js/widget.js
 
 ## Freeze URLs
 
 {:.small}
-    http://tmg.st/awesome/_/<mark>6rUIvSy1fLQ0Nn_OdCLP1h6IAcA</mark>.png
+    http://yandex.st/blogs/_/<mark>6rUIvSy1fLQ0Nn_OdCLP1h6IAcA</mark>.png
 
 File name depends on its content and chages only when the&nbsp;content has been
 changed.
@@ -242,7 +245,7 @@ changed.
     }
 
 {:.small .no-numbers .compact}
-    .logo{background:url("http://tmg.st/awesome/_/6rUIvSy1fLQ0Nn_
+    .logo{background:url("http://yandex.st/blogs/_/6rUIvSy1fLQ0Nn_
     OdCLP1h6IAcA.png")}
 
 A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
@@ -250,33 +253,34 @@ A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
 ## Backend/Client
 
 {:.no-numbers}
-    my-awesome-website_1.0.108
+    yandex-blogs_1.25.3
 
 {:.small .compact}
-    <script src="http://tmg.st/awesome/<mark>1.0.108</mark>/page.js">
+    <mark class="comment">http://blogs.yandex.ru</mark>
+    <script src="http://yandex.st/blogs/<mark>1.25.3</mark>/page.js">
     </script>
 
 {:.reset}
-    my-awesome-website-static_1.0.108
+    yandex-blogs-static_1.25.3
 
 {:.small .compact}
-    http://tmg.st/awesome/<mark>1.0.108</mark>/page.js
+    http://yandex.st/blogs/<mark>1.25.3</mark>/page.js
 
 ## Backend/Client
 
 {:.no-numbers}
-    my-awesome-website_1.0.108
+    yandex-blogs_1.25.3
 
 {:.small .compact}
-    <script src="http://tmg.st/awesome/_/<mark>0roIvDy1fLQ7Ln_
-    OdCFP1h6IbMr</mark>.js">
-    </script>
+    <mark class="comment">http://blogs.yandex.ru</mark>
+    <script src="http://yandex.st/blogs/_/<mark>0roIvDy1fLQ7Ln_
+    OdCFP1h6IbMr</mark>.js"></script>
 
 {:.reset}
-    my-awesome-website-static_1.0.108
+    yandex-blogs-static_1.25.3
 
 {:.small .compact}
-    http://tmg.st/awesome/_/<mark>0roIvDy1fLQ7Ln_OdCFP1h6IbMr</mark>.js">
+    http://yandex.st/blogs/_/<mark>0roIvDy1fLQ7Ln_OdCFP1h6IbMr</mark>.js">
 
 ## Backend/Client
 {:.scheme}
@@ -288,17 +292,18 @@ A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
 
 ![](pictures/backend-frontend-client.png)
 
-## Backend/Frontend/Client
-
-{:.no-numbers}
-    <backend>
-    my-awesome-website-www_1.0.108
-    my-awesome-website-static_1.0.108
-
 ## The new web frontend
 
 {:.big}
 [bit.ly/2-layer-frontend](http://bit.ly/2-layer-frontend)
+
+## Backend/Frontend/Client
+
+{:.no-numbers}
+    <backend> <mark class="comment">separate dev cycle</mark>
+
+    yandex-blogs-www_1.25.3
+    yandex-blogs-static_1.25.3
 
 ## Robots to do this all
 
@@ -306,4 +311,9 @@ A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
 - Teamcity
 - Jenkins
 
-## Questions?
+## Discussion
+
+- Automate deployment
+- Separate backend and frontend
+- Dedicated servers for static files
+- ?
