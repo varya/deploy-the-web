@@ -313,6 +313,8 @@ A wonderful tool to do this is [Borschik](http://bem.info/tools/borschik/)
 
 ## Discussion
 
+[varya.me/deploy-the-web](http://varya.me/deploy-the-web/)
+
 - Automate deployment
 - Separate backend and frontend
 - Dedicated servers for static files
